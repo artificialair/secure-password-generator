@@ -13,7 +13,7 @@ function generatePassword() {
   var passwordLength;
   // !passwordLength returns true only if the password length is not null
   while (!passwordLength) {
-    var lengthInput = prompt("How long would you like your password to be?");
+    var lengthInput = prompt("How long would you like your password to be? (8-128 characters)");
 
     // If the cancel button is clicked, we want to cancel the password generating process.
     if (lengthInput === null) {
